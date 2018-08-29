@@ -3,7 +3,7 @@ package display;
 import java.awt.*;
 import javax.swing.*;
  
-/* FrameDemo.java requires no other files. */
+//creating the Frame
 public class Displaywindow {
     private static void GUI() {
         //Create and set up the window.
