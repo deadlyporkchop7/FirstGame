@@ -13,6 +13,7 @@ public class Displaywindow {
         JLabel emptyLabel = new JLabel("");
         emptyLabel.setPreferredSize(new Dimension(640, 320));
         frame.getContentPane().add(emptyLabel, BorderLayout.CENTER);
+        frame.getContentPane().setBackground( Color.DARK_GRAY );
  
         //Display the window.
         frame.pack();
